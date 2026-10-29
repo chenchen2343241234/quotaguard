@@ -1,0 +1,44 @@
+[
+  {
+    "catalogue": "CN",
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "raw_train_relations": 393030
+  },
+  {
+    "catalogue": "US",
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "raw_train_relations": 435084
+  },
+  {
+    "catalogue": "CN",
+    "entities": 226444,
+    "field": "CS",
+    "isolated_entities": "",
+    "raw_train_relations": 411633
+  },
+  {
+    "catalogue": "US",
+    "entities": 152071,
+    "field": "CS",
+    "isolated_entities": "",
+    "raw_train_relations": 249980
+  },
+  {
+    "catalogue": "CN",
+    "entities": 190191,
+    "field": "MAT",
+    "isolated_entities": "",
+    "raw_train_relations": 713583
+  },
+  {
+    "catalogue": "US",
+    "entities": 64899,
+    "field": "MAT",
+    "isolated_entities": "",
+    "raw_train_relations": 113199
+  }
+]

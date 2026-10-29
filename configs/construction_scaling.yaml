@@ -1,0 +1,26 @@
+exploratory: false
+descriptive_only: true
+datasets_root: data
+domains: [openalex_cs, openalex_mat, openalex_bio]
+inputs_read: [entities.tsv, abstracts.tsv]
+models: runs/structures/stage1/models.json
+model_key: title_abstract:64
+sample_seed: 20261029
+sizes: [125000, 250000, 500000, 1000000, all]
+text_mode: title_abstract
+limit: 64
+kdeg: 4
+construction_seed: 101
+threads: 4
+repeats: 1
+candidates:
+  tfidf:
+    lowercase: true
+    stop_words: english
+    ngram_range: [1, 2]
+    min_df: 2
+    max_df: 0.02
+    sublinear_tf: true
+    norm: l2
+  similarity_block_size: 256
+measures: [tfidf_knn_seconds, predict_seconds, bmatching_seconds, total_seconds, peak_rss_bytes, candidate_pairs, retained_pairs, artifact_bytes]

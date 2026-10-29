@@ -1,0 +1,1970 @@
+[
+  {
+    "candidate_pairs": 2049601,
+    "candidate_rule": "union",
+    "catalogue": "CN",
+    "coverage": 0.15178739536422156,
+    "covered_relations": 59657,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.2889289634624432,
+          "covered": 7370,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.2335,
+          "covered": 31289,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.1577835943854673,
+          "covered": 60522,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.08286003555906757,
+          "covered": 20133,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.46776406035665297,
+          "covered": 1023,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.309991920280097,
+          "covered": 10359,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.18481316655095095,
+          "covered": 32475,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.08695269333215928,
+          "covered": 15800,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.2721581407315295,
+          "covered": 6347,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.2080868536432598,
+          "covered": 20930,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.13493346419190025,
+          "covered": 28047,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.07072207351309003,
+          "covered": 4333,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 23.52199734895651,
+    "neighbor_limit": 16,
+    "raw_train_relations": 393030,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 737735,
+    "candidate_rule": "mutual",
+    "catalogue": "CN",
+    "coverage": 0.10144772663664352,
+    "covered_relations": 39872,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.22349851027128745,
+          "covered": 5701,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.16943283582089552,
+          "covered": 22704,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.10377343733705967,
+          "covered": 39805,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.04746970894244699,
+          "covered": 11534,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.3891175125743027,
+          "covered": 851,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.236376694496813,
+          "covered": 7899,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.12531442424794273,
+          "covered": 22020,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.050091355361348976,
+          "covered": 9102,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.20796706830753398,
+          "covered": 4850,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.14719187138979747,
+          "covered": 14805,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.08556322104513658,
+          "covered": 17785,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.03969445713912646,
+          "covered": 2432,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 8.466526272300039,
+    "neighbor_limit": 16,
+    "raw_train_relations": 393030,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 7970720,
+    "candidate_rule": "union",
+    "catalogue": "CN",
+    "coverage": 0.2589191664758415,
+    "covered_relations": 101763,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.4054414301395641,
+          "covered": 10342,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.3499328358208955,
+          "covered": 46891,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.2733434834296202,
+          "covered": 104848,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.1705724022125642,
+          "covered": 41445,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.5820759030635574,
+          "covered": 1273,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.4316365921536942,
+          "covered": 14424,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.3066788832105988,
+          "covered": 53889,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.1770808109714487,
+          "covered": 32177,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.38887697783113934,
+          "covered": 9069,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.32278814511398546,
+          "covered": 32467,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.24516256290352068,
+          "covered": 50959,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.15126983090683555,
+          "covered": 9268,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 91.47500157800208,
+    "neighbor_limit": 64,
+    "raw_train_relations": 393030,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 3173893,
+    "candidate_rule": "mutual",
+    "catalogue": "CN",
+    "coverage": 0.1885861130193624,
+    "covered_relations": 74120,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.3246040457895562,
+          "covered": 8280,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.2718358208955224,
+          "covered": 36426,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.19898273093207083,
+          "covered": 76325,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.11198225339128144,
+          "covered": 27209,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.5034293552812071,
+          "covered": 1101,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.3499715713558967,
+          "covered": 11695,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.22801875732708088,
+          "covered": 40067,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.11698439254188038,
+          "covered": 21257,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.3078341409030488,
+          "covered": 7179,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.24587653977312268,
+          "covered": 24731,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.17443639407672545,
+          "covered": 36258,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.09714696089312529,
+          "covered": 5952,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 36.424798159188846,
+    "neighbor_limit": 64,
+    "raw_train_relations": 393030,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 30770104,
+    "candidate_rule": "union",
+    "catalogue": "CN",
+    "coverage": 0.39738442358089715,
+    "covered_relations": 156184,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.5258350321467775,
+          "covered": 13413,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.4855,
+          "covered": 65057,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.4201618453709304,
+          "covered": 161164,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.29934643750823126,
+          "covered": 72734,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.6858710562414266,
+          "covered": 1500,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.5568722506508663,
+          "covered": 18609,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.4552180197816957,
+          "covered": 79990,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.30865454465406034,
+          "covered": 56085,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.5108271514943613,
+          "covered": 11913,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.46178777725858244,
+          "covered": 46448,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.39052622463412523,
+          "covered": 81174,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.2717405497160018,
+          "covered": 16649,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 353.12936747938556,
+    "neighbor_limit": 256,
+    "raw_train_relations": 393030,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 13721584,
+    "candidate_rule": "mutual",
+    "catalogue": "CN",
+    "coverage": 0.3137597638857085,
+    "covered_relations": 123317,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.452720715069782,
+          "covered": 11548,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.4029925373134328,
+          "covered": 54001,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.33308653304690594,
+          "covered": 127764,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.2194496575793494,
+          "covered": 53321,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.6278006401463192,
+          "covered": 1373,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.48116228267049704,
+          "covered": 16079,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.36756621404750794,
+          "covered": 64588,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.22716115966275563,
+          "covered": 41277,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.43630204536683675,
+          "covered": 10175,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.3770219619617629,
+          "covered": 37922,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.3039382655466713,
+          "covered": 63176,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.1965789645491937,
+          "covered": 12044,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 157.47409494408134,
+    "neighbor_limit": 256,
+    "raw_train_relations": 393030,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 2096477,
+    "candidate_rule": "union",
+    "catalogue": "CN",
+    "coverage": 0.23598707477800676,
+    "covered_relations": 92750,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.4156735141916262,
+          "covered": 10603,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.3522164179104478,
+          "covered": 47197,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.24940559367635098,
+          "covered": 95666,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.13184018174634532,
+          "covered": 32034,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.6250571559213535,
+          "covered": 1367,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.45237453990483883,
+          "covered": 15117,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.2908922250423975,
+          "covered": 51115,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.13841437911374294,
+          "covered": 25151,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.3960379057501822,
+          "covered": 9236,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.3189405764393585,
+          "covered": 32080,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.21433382405295923,
+          "covered": 44551,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.11234249526669714,
+          "covered": 6883,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 24.059964078934534,
+    "neighbor_limit": 16,
+    "raw_train_relations": 393030,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 691530,
+    "candidate_rule": "mutual",
+    "catalogue": "CN",
+    "coverage": 0.15533419840724627,
+    "covered_relations": 61051,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.31801787674455073,
+          "covered": 8112,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.25488805970149253,
+          "covered": 34155,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.16166548480614013,
+          "covered": 62011,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.07335703937837482,
+          "covered": 17824,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.52400548696845,
+          "covered": 1146,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.34913367447706256,
+          "covered": 11667,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.19422597571108252,
+          "covered": 34129,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.07764655381160984,
+          "covered": 14109,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.29870074182067663,
+          "covered": 6966,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.2235765487209568,
+          "covered": 22488,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.13413965303235864,
+          "covered": 27882,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.06063524188809819,
+          "covered": 3715,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 7.936260192458872,
+    "neighbor_limit": 16,
+    "raw_train_relations": 393030,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 8011960,
+    "candidate_rule": "union",
+    "catalogue": "CN",
+    "coverage": 0.3795817113197466,
+    "covered_relations": 149187,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.5447702681511682,
+          "covered": 13896,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.4949179104477612,
+          "covered": 66319,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.4035471458068284,
+          "covered": 154791,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.260799420518899,
+          "covered": 63368,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.7233653406492913,
+          "covered": 1582,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.5855103689738755,
+          "covered": 19566,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.44952139223073334,
+          "covered": 78989,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.2699385827811654,
+          "covered": 49050,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.528021954461644,
+          "covered": 12314,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.4648200988238569,
+          "covered": 46753,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.3646816576701402,
+          "covered": 75802,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.23369458771299864,
+          "covered": 14318,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 91.948287437382,
+    "neighbor_limit": 64,
+    "raw_train_relations": 393030,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 3138663,
+    "candidate_rule": "mutual",
+    "catalogue": "CN",
+    "coverage": 0.2867669134671654,
+    "covered_relations": 112708,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.45409283362082487,
+          "covered": 11583,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.39892537313432835,
+          "covered": 53456,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.3049200158508353,
+          "covered": 116960,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.17868843013301725,
+          "covered": 43417,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.6538637402834934,
+          "covered": 1430,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.49492773139420054,
+          "covered": 16539,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.34720404284137085,
+          "covered": 61010,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.185621986924076,
+          "covered": 33729,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.4353586895930706,
+          "covered": 10153,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.36703021385323564,
+          "covered": 36917,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.26917414773547327,
+          "covered": 55950,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.15812495919566494,
+          "covered": 9688,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 36.020485336057064,
+    "neighbor_limit": 64,
+    "raw_train_relations": 393030,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 30323946,
+    "candidate_rule": "union",
+    "catalogue": "CN",
+    "coverage": 0.5386077398671857,
+    "covered_relations": 211689,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.6736318017876745,
+          "covered": 17183,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.6372686567164179,
+          "covered": 85394,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.5659217469289006,
+          "covered": 217074,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.4269022454892664,
+          "covered": 103727,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.807498856881573,
+          "covered": 1766,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.7108956519136966,
+          "covered": 23756,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.6076497569970065,
+          "covered": 106775,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.43692077398903734,
+          "covered": 79392,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.6610779983705674,
+          "covered": 15417,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.612807333247169,
+          "covered": 61638,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.5306459217350307,
+          "covered": 110299,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.39718939740157994,
+          "covered": 24335,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 348.0090892919648,
+    "neighbor_limit": 256,
+    "raw_train_relations": 393030,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 14255428,
+    "candidate_rule": "mutual",
+    "catalogue": "CN",
+    "coverage": 0.45333435106734854,
+    "covered_relations": 178174,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.5998118237415713,
+          "covered": 15300,
+          "total": 25508
+        },
+        "2-4": {
+          "coverage": 0.5576343283582089,
+          "covered": 74723,
+          "total": 134000
+        },
+        "5-16": {
+          "coverage": 0.4796181200075083,
+          "covered": 183970,
+          "total": 383576
+        },
+        ">16": {
+          "coverage": 0.33894294086658766,
+          "covered": 82355,
+          "total": 242976
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.7558299039780522,
+          "covered": 1653,
+          "total": 2187
+        },
+        "2-4": {
+          "coverage": 0.6420085585181196,
+          "covered": 21454,
+          "total": 33417
+        },
+        "5-16": {
+          "coverage": 0.5226556186617194,
+          "covered": 91840,
+          "total": 175718
+        },
+        ">16": {
+          "coverage": 0.34795936337420474,
+          "covered": 63227,
+          "total": 181708
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.585180738390292,
+          "covered": 13647,
+          "total": 23321
+        },
+        "2-4": {
+          "coverage": 0.5296024179036218,
+          "covered": 53269,
+          "total": 100583
+        },
+        "5-16": {
+          "coverage": 0.44323528562768816,
+          "covered": 92130,
+          "total": 207858
+        },
+        ">16": {
+          "coverage": 0.3122021283541163,
+          "covered": 19128,
+          "total": 61268
+        }
+      }
+    },
+    "entities": 174271,
+    "field": "BIO",
+    "isolated_entities": 47043,
+    "mean_candidates_per_entity": 163.60069087800036,
+    "neighbor_limit": 256,
+    "raw_train_relations": 393030,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 2480332,
+    "candidate_rule": "union",
+    "catalogue": "US",
+    "coverage": 0.12537578950271672,
+    "covered_relations": 54549,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.24611873854326438,
+          "covered": 6579,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.18795171459326465,
+          "covered": 29334,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.12784306520650293,
+          "covered": 58451,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.06401744903456785,
+          "covered": 14734,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.45200219418540866,
+          "covered": 824,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.27861003861003864,
+          "covered": 9020,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.15137848836937026,
+          "covered": 32324,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.06608310426730005,
+          "covered": 12381,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.2310502649751084,
+          "covered": 5755,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.16422386961688643,
+          "covered": 20314,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.10721936325807008,
+          "covered": 26127,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.05497535104319993,
+          "covered": 2353,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 23.82563506510348,
+    "neighbor_limit": 16,
+    "raw_train_relations": 435084,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 847356,
+    "candidate_rule": "mutual",
+    "catalogue": "US",
+    "coverage": 0.08506863042538912,
+    "covered_relations": 37012,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.1917997830234559,
+          "covered": 5127,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.13655876774821876,
+          "covered": 21313,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.08535483772191711,
+          "covered": 39025,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.037187820434835504,
+          "covered": 8559,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.3823368074602304,
+          "covered": 697,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.21705019305019305,
+          "covered": 7027,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.10335267478726742,
+          "covered": 22069,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.03853113074110646,
+          "covered": 7219,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.1778545045768428,
+          "covered": 4430,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.11549188743461847,
+          "covered": 14286,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.06958363085711472,
+          "covered": 16956,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.031307679727109176,
+          "covered": 1340,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 8.13955342519704,
+    "neighbor_limit": 16,
+    "raw_train_relations": 435084,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 9564900,
+    "candidate_rule": "union",
+    "catalogue": "US",
+    "coverage": 0.2121682249864394,
+    "covered_relations": 92311,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.34645168530919157,
+          "covered": 9261,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.288277205392383,
+          "covered": 44992,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.21991911795262123,
+          "covered": 100549,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.12956429552129858,
+          "covered": 29820,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.56006582556226,
+          "covered": 1021,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.391969111969112,
+          "covered": 12690,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.25174798975324425,
+          "covered": 53756,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.13260388033412507,
+          "covered": 24844,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.33081740806166693,
+          "covered": 8240,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.26113810359184136,
+          "covered": 32302,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.19202800416943672,
+          "covered": 46793,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.1162589659120114,
+          "covered": 4976,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 91.8787552772001,
+    "neighbor_limit": 64,
+    "raw_train_relations": 435084,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 3729765,
+    "candidate_rule": "mutual",
+    "catalogue": "US",
+    "coverage": 0.15476781495067618,
+    "covered_relations": 67337,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.2761961767236542,
+          "covered": 7383,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.2210774514326721,
+          "covered": 34504,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.1599487324177783,
+          "covered": 73130,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.08540728896922088,
+          "covered": 19657,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.48656061437191445,
+          "covered": 887,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.3165096525096525,
+          "covered": 10247,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.18622120441528398,
+          "covered": 39764,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.08774252088281605,
+          "covered": 16439,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.2607997430544403,
+          "covered": 6496,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.19610014794214897,
+          "covered": 24257,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.13692659985718858,
+          "covered": 33366,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.07518515922525175,
+          "covered": 3218,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 35.82746977767318,
+    "neighbor_limit": 64,
+    "raw_train_relations": 435084,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 36498868,
+    "candidate_rule": "union",
+    "catalogue": "US",
+    "coverage": 0.3230709472193875,
+    "covered_relations": 140563,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.45217163592832293,
+          "covered": 12087,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.40220539238300274,
+          "covered": 62773,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.3358157866533686,
+          "covered": 153538,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.22909678652739882,
+          "covered": 52728,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.6494788809654416,
+          "covered": 1184,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.5070888030888031,
+          "covered": 16417,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.37166500414459724,
+          "covered": 79362,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.2327132982840063,
+          "covered": 43600,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.4377308495262566,
+          "covered": 10903,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.37475444028553645,
+          "covered": 46356,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.30440171045395975,
+          "covered": 74176,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.21326604518586015,
+          "covered": 9128,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 350.6017376937375,
+    "neighbor_limit": 256,
+    "raw_train_relations": 435084,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 16492011,
+    "candidate_rule": "mutual",
+    "catalogue": "US",
+    "coverage": 0.2584397495656011,
+    "covered_relations": 112443,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.39096928659608693,
+          "covered": 10451,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.33737633912553183,
+          "covered": 52655,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.2688354778667961,
+          "covered": 122914,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.16886807209023444,
+          "covered": 38866,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.5984640702139331,
+          "covered": 1091,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.44364478764478765,
+          "covered": 14363,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.3029536694906126,
+          "covered": 64690,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.17239465186410824,
+          "covered": 32299,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.3757828810020877,
+          "covered": 9360,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.30956288349757877,
+          "covered": 38292,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.2389382709969714,
+          "covered": 58224,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.15343099460292983,
+          "covered": 6567,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 158.41937110663906,
+    "neighbor_limit": 256,
+    "raw_train_relations": 435084,
+    "text_mode": "title"
+  },
+  {
+    "candidate_pairs": 2562239,
+    "candidate_rule": "union",
+    "catalogue": "US",
+    "coverage": 0.23683472616782048,
+    "covered_relations": 103043,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.40114473831880587,
+          "covered": 10723,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.3425278076785074,
+          "covered": 53459,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.25191323880326066,
+          "covered": 115177,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.11612558438624238,
+          "covered": 26727,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.6681294569391114,
+          "covered": 1218,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.4795675675675676,
+          "covered": 15526,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.2981253307482286,
+          "covered": 63659,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.12084011635664914,
+          "covered": 22640,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.38160430383812427,
+          "covered": 9505,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.3066606304114085,
+          "covered": 37933,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.21141834716305943,
+          "covered": 51518,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.095488423167683,
+          "covered": 4087,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 24.61241937110664,
+    "neighbor_limit": 16,
+    "raw_train_relations": 435084,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 767724,
+    "candidate_rule": "mutual",
+    "catalogue": "US",
+    "coverage": 0.16129069329141038,
+    "covered_relations": 70175,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.31094983352661704,
+          "covered": 8312,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.2534855707622123,
+          "covered": 39562,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.170418780032764,
+          "covered": 77917,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.06325709518761188,
+          "covered": 14559,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.5869445968184311,
+          "covered": 1070,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.3802007722007722,
+          "covered": 12309,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.20809624831991608,
+          "covered": 44435,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.06597635504790371,
+          "covered": 12361,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.2907499598522563,
+          "covered": 7242,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.22032062216545267,
+          "covered": 27253,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.1374026379074024,
+          "covered": 33482,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.051353940328497,
+          "covered": 2198,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 7.374622371005778,
+    "neighbor_limit": 16,
+    "raw_train_relations": 435084,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 9718543,
+    "candidate_rule": "union",
+    "catalogue": "US",
+    "coverage": 0.3716109992553162,
+    "covered_relations": 161682,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.5246717294526954,
+          "covered": 14025,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.4790481316315547,
+          "covered": 74766,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.39811989702739886,
+          "covered": 182024,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.22831905316394097,
+          "covered": 52549,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.7613823368074603,
+          "covered": 1388,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.6082471042471043,
+          "covered": 19692,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.45194842903372345,
+          "covered": 96505,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.23536601638600518,
+          "covered": 44097,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.5073470370965152,
+          "covered": 12637,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.44523310993799364,
+          "covered": 55074,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.35095084496753914,
+          "covered": 85519,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.19747202168173641,
+          "covered": 8452,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 93.35462304341353,
+    "neighbor_limit": 64,
+    "raw_train_relations": 435084,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 3596073,
+    "candidate_rule": "mutual",
+    "catalogue": "US",
+    "coverage": 0.2847312243153046,
+    "covered_relations": 123882,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.4404997942463806,
+          "covered": 11775,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.39021733558870264,
+          "covered": 60902,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.3074370801974589,
+          "covered": 140563,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.15000260692747527,
+          "covered": 34524,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.7076247942951179,
+          "covered": 1290,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.5238610038610039,
+          "covered": 16960,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.3581915506413589,
+          "covered": 76485,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.15557097488724614,
+          "covered": 29147,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.42094909266099245,
+          "covered": 10485,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.3552390114554112,
+          "covered": 43942,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.26296177742758886,
+          "covered": 64078,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.1256279058900493,
+          "covered": 5377,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 34.54324782548137,
+    "neighbor_limit": 64,
+    "raw_train_relations": 435084,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 36246152,
+    "candidate_rule": "union",
+    "catalogue": "US",
+    "coverage": 0.5170702668909911,
+    "covered_relations": 224969,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.640529722045565,
+          "covered": 17122,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.6146650263980726,
+          "covered": 95932,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.5489961921134536,
+          "covered": 251006,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.3731295295364883,
+          "covered": 85878,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.8233680746023039,
+          "covered": 1501,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.7236756756756757,
+          "covered": 23429,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.6022778893931092,
+          "covered": 128605,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.3812761869178832,
+          "covered": 71434,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.627147904287779,
+          "covered": 15621,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.586133859349863,
+          "covered": 72503,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.50230632227776,
+          "covered": 122401,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.3374687507301231,
+          "covered": 14444,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 348.17419203004704,
+    "neighbor_limit": 256,
+    "raw_train_relations": 435084,
+    "text_mode": "title_abstract"
+  },
+  {
+    "candidate_pairs": 16948449,
+    "candidate_rule": "mutual",
+    "catalogue": "US",
+    "coverage": 0.439510531299703,
+    "covered_relations": 191224,
+    "degree_strata": {
+      "endpoint_incidence": {
+        "1": {
+          "coverage": 0.5809359919194942,
+          "covered": 15529,
+          "total": 26731
+        },
+        "2-4": {
+          "coverage": 0.5445948023988928,
+          "covered": 84996,
+          "total": 156072
+        },
+        "5-16": {
+          "coverage": 0.47117401450977564,
+          "covered": 215425,
+          "total": 457209
+        },
+        ">16": {
+          "coverage": 0.28892577208502057,
+          "covered": 66498,
+          "total": 230156
+        }
+      },
+      "max_endpoint": {
+        "1": {
+          "coverage": 0.7926494788809655,
+          "covered": 1445,
+          "total": 1823
+        },
+        "2-4": {
+          "coverage": 0.6649266409266409,
+          "covered": 21527,
+          "total": 32375
+        },
+        "5-16": {
+          "coverage": 0.5269867138729272,
+          "covered": 112528,
+          "total": 213531
+        },
+        ">16": {
+          "coverage": 0.29742467508206344,
+          "covered": 55724,
+          "total": 187355
+        }
+      },
+      "min_endpoint": {
+        "1": {
+          "coverage": 0.565440822225791,
+          "covered": 14084,
+          "total": 24908
+        },
+        "2-4": {
+          "coverage": 0.5131005602399411,
+          "covered": 63469,
+          "total": 123697
+        },
+        "5-16": {
+          "coverage": 0.42226626942112133,
+          "covered": 102897,
+          "total": 243678
+        },
+        ">16": {
+          "coverage": 0.25172309058199577,
+          "covered": 10774,
+          "total": 42801
+        }
+      }
+    },
+    "entities": 208207,
+    "field": "BIO",
+    "isolated_entities": 63384,
+    "mean_candidates_per_entity": 162.80383464532892,
+    "neighbor_limit": 256,
+    "raw_train_relations": 435084,
+    "text_mode": "title_abstract"
+  }
+]

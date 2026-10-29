@@ -1,0 +1,72 @@
+id: openalex-bio
+seed: 17
+retrieval_date_field: UTC retrieval time recorded in the manifest
+source:
+  api: https://api.openalex.org/works
+  auth: environment
+  cache_key_rule: query_parameters_only
+  rate_limit_handling: Retry-After; stop above 300 seconds
+  user_agent: quotaguard-research
+  max_requests_per_second: 5
+  cache: Store original page responses as gzip; reuse verified cached pages.
+  select:
+    - id
+    - doi
+    - title
+    - publication_year
+    - type
+    - language
+    - primary_topic
+    - authorships
+    - referenced_works
+    - abstract_inverted_index
+  fetch_strategy: Fetch by publication year and institution country; assign catalogues by first-author institutions.
+filter:
+  field: primary_topic.field.id:13
+  years:
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+  types:
+    - article
+    - conference-paper
+  language: en
+  require_title: true
+domains:
+  rule: Keep papers whose first-author institutions include exactly one of CN and US.
+  names:
+    - CN
+    - US
+graph:
+  entities: Filtered papers identified by OpenAlex work ID.
+  relations: Undirected, deduplicated citations within each catalogue; exclude self loops.
+  degree_clipping: none
+  text:
+    primary: title
+    secondary: abstract
+splits:
+  protocol: Train on the source catalogue and test on the target catalogue in both directions.
+  source_val_fraction: 0.1
+  target_test_relations: 10000
+  target_test_seed: 17
+  split_version: 2
+  note: Reserve the test split for final evaluation.
+output:
+  dir: data/openalex_bio
+  files:
+    - '{domain}/entities.tsv: work_id<TAB>title'
+    - '{domain}/abstracts.tsv: work_id<TAB>abstract'
+    - '{domain}/relations.tsv: source<TAB>target'
+    - '{domain}/splits/train.tsv'
+    - '{domain}/splits/val.tsv'
+    - '{domain}/splits/test.tsv'
+    - 'manifest.json: retrieval counts, checks and file checksums'
+checks:
+  - Catalogue entity sets are disjoint
+  - Relation endpoints belong to the catalogue; no loops or duplicates
+  - Training and validation relations are disjoint; tests use the target catalogue
+  - All titles are nonempty; record the fraction of missing abstracts
+  - Report catalogue entities, relations, degree statistics and isolated entities
+scale_expectation: Stop if relations < 50000 in either catalogue.

@@ -1,0 +1,14 @@
+/data/
+/runs/
+/tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.so
+*.dll
+*.dylib
+*.o
+*.egg-info/
+/build/
+/dist/

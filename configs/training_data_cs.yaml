@@ -1,0 +1,18 @@
+structure_dir: runs/structures/stage3
+source_dir: data/openalex_cs
+report_dir: runs/training_data_cs
+domains: [CN, US]
+kdeg: 4
+deployment_seed: 101
+clip_seed: 271828
+structures:
+  cg:
+    scheme: candidate_graph_bmatching_native
+    params:
+      limit: 64
+      text_mode: title_abstract
+    output_dir: data/cs_candidate_graph
+  lg:
+    scheme: legacy_text_groups
+    params: {}
+    output_dir: data/cs_public_groups

@@ -1,0 +1,27 @@
+seed: 271828
+source_dir: data/openalex_cs
+output_dir: data/cs_public_groups
+report_dir: runs/public_groups
+manifest_copy: runs/public_groups/manifest.json
+domains: [CN, US]
+kdeg: 4
+selected: text_groups
+selection_rule: Select text_groups a priori, irrespective of measured retention. Four independent public-ID-seeded partitions into groups of at most eight, one quota per group, provide up to 28 candidate pairs per eight quota incidences. Singletons provide one per two; out-stars with one reserved own-bucket incidence and at most three incoming incidences offer only three outgoing pairs per entity on average. No retention-driven tuning.
+schemes: [singleton_knn, out_star, text_groups]
+neighbors: 64
+group_size: 8
+rounds: 4
+star_candidates: 3
+tfidf:
+  lowercase: true
+  stop_words: english
+  ngram_range: [1, 2]
+  min_df: 2
+  max_df: 0.02
+  sublinear_tf: true
+  norm: l2
+similarity_block_size: 256
+cpu_threads: 2
+priority: sha256 of JSON [public seed, sorted immutable endpoint IDs]
+public_scale_derivation: Each retained edge belongs to exactly one bucket, hence |E_kept| <= B=sum_b beta_b, not B/2. Also |E_kept| <= floor(K*|U|/2). Use B (including empty-on-private-input buckets) for public_train_size and m_bar, gamma=min(1,256/B), delta=1/B, M=gamma*B. N_min=|U|-3 as before, fixed on the full public ID universe, including isolated entities. Freeze all of these across neighboring inputs.
+privacy_scope: Conditional on the supplied entity IDs/titles being a public fixed universe. Buckets, TF-IDF vocabulary/IDF, priorities and scales must not be rebuilt after private node deletion. Original corpus membership and historical nonprivate hyperparameter selection are outside this change.

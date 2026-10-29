@@ -1,0 +1,68 @@
+seed: 271828
+kdeg: 4
+construction_seeds: [101, 103, 107, 109, 113]
+deployment_seed: 101
+cpu_threads_per_process: 2
+max_parallel_processes: 16
+candidates:
+  text_modes: [title, title_abstract]
+  limits: [64, 256]
+  tfidf:
+    lowercase: true
+    stop_words: english
+    ngram_range: [1, 2]
+    min_df: 2
+    max_df: 0.02
+    sublinear_tf: true
+    norm: l2
+  similarity_block_size: 256
+calibration:
+  domain: CN
+  model: logistic_l2
+  regularization_C: 1.0
+  negative_sampling:
+    pairs_per_positive: 20
+    correct_prior: true
+  secondary_check: isotonic_on_cosine
+capacity:
+  main_B0: 4*ceil(n/8)
+  frontier_multipliers: [0.5, 1.0, 2.0, 4.0]
+designs:
+  dp_forest:
+    base_group_size: [4, 8]
+    max_root_size: [16, 32]
+    layer_budgets: [[4], [2, 2], [1, 1, 1, 1]]
+    root_capacity_rule: proportional_to_root_size
+  baselines:
+    legacy_text_groups:
+      text_mode: title
+      limit: 64
+      group_size: 8
+      rounds: 4
+    random_public_groups:
+      group_size: 8
+      rounds: 4
+    candidate_graph_bmatching:
+      solver: greedy_weight_desc
+    forest_marginal_greedy: {}
+selection:
+  exclude_if_any: [budget_violation, stability_violation, implementation_check_failure]
+  coverage_constraint: nonisolated_coverage >= 0.95 * legacy_text_groups
+  objective: mean retention over the 5 construction seeds
+  tie_tolerance_pp: 0.2
+  tie_break: [higher_nonisolated_coverage, fewer_candidate_pairs, smaller_max_root_size, lexicographic_params]
+metrics: [retention, nonisolated_coverage, all_entity_coverage, capacity_B, capacity_utilization, generated_candidate_coverage, active_candidate_coverage, loss_candidate_generation, loss_structure_assignment, loss_quota, proxy_expected_retained, actual_retained, bucket_size_and_quota_histograms, stage_seconds, peak_rss_bytes, artifact_bytes]
+stability:
+  deletions:
+    uniform: 400
+    high_raw_degree: 200
+    high_retained_degree: 150
+    saturated_bucket: 150
+    multi_bucket: 100
+  checks: [d_minus <= 4, d_plus <= d_minus, removed relations incident to deleted entity, 'candidate graph: d_plus == 0']
+  adversarial_constructions: [greedy_path_cascade, two_sided_topk_star, bucket_bound_attaining_2K]
+  report: [mean, p99, sampled_max]
+gate_to_training:
+  vs_legacy_pp: 2.0
+  vs_best_simple_baseline_pp: 1.0
+  no_negative_domain: true

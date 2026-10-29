@@ -1,0 +1,1952 @@
+[
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.02495427696180704,
+    "lower95": 0.021166136893269297,
+    "upper95": 0.028742417030344785,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.026607992003084502,
+      0.025764703431245095,
+      0.019719452241662827,
+      0.025199962530868758,
+      0.02747927460217403
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.033107619704580114,
+    "lower95": 0.027909270836897794,
+    "upper95": 0.038305968572262435,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.03734693865460603,
+      0.0303924440078171,
+      0.027189213105947352,
+      0.0355098346316578,
+      0.035099668122872296
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.005931679239716337,
+    "lower95": 0.004677943156298426,
+    "upper95": 0.007185415323134247,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.006734779448723784,
+      0.005491537509956658,
+      0.004939042336283728,
+      0.007260394180023957,
+      0.005232642723593556
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.005044175548917107,
+    "lower95": 0.004025572101439281,
+    "upper95": 0.006062778996394932,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.005763934179329036,
+      0.004466642071448999,
+      0.004272279863421637,
+      0.004635734646500557,
+      0.006082286983885306
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.011639999999999998,
+    "lower95": 0.008606678130644523,
+    "upper95": 0.014673321869355473,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.015199999999999991,
+      0.009300000000000003,
+      0.009499999999999995,
+      0.012700000000000003,
+      0.011499999999999996
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.0108,
+    "lower95": 0.008594516714324606,
+    "upper95": 0.013005483285675395,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.011300000000000004,
+      0.008800000000000002,
+      0.009400000000000006,
+      0.011200000000000002,
+      0.013299999999999992
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.01861999999999999,
+    "lower95": 0.013855018350792976,
+    "upper95": 0.023384981649207007,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.023900000000000005,
+      0.017699999999999994,
+      0.016199999999999992,
+      0.02099999999999999,
+      0.01429999999999998
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.02454,
+    "lower95": 0.018672168665009627,
+    "upper95": 0.030407831334990372,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.029600000000000015,
+      0.02260000000000001,
+      0.0179,
+      0.028499999999999998,
+      0.024099999999999983
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.024574257820236846,
+    "lower95": 0.02271477805811228,
+    "upper95": 0.02643373758236141,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.024072148544242056,
+      0.02591328017100686,
+      0.023361526793453158,
+      0.02312136780519075,
+      0.0264029657872914
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.044695580964965044,
+    "lower95": 0.03803715289964272,
+    "upper95": 0.05135400903028737,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.049882789255642046,
+      0.04254189620380017,
+      0.036458029730983055,
+      0.04831791413571679,
+      0.04627727549868316
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.006715829536737298,
+    "lower95": 0.005052330543961536,
+    "upper95": 0.00837932852951306,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.008724960025629162,
+      0.007256386507466184,
+      0.005208133206610038,
+      0.0060630833364218595,
+      0.006326584607559249
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.007778969524644734,
+    "lower95": 0.006700177443200115,
+    "upper95": 0.008857761606089353,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0079300684940493,
+      0.006895286360633468,
+      0.00692840231843702,
+      0.008224806351776165,
+      0.008916284098327718
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.011,
+    "lower95": 0.008518224568918601,
+    "upper95": 0.013481775431081398,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.013899999999999996,
+      0.010700000000000001,
+      0.00839999999999999,
+      0.010400000000000006,
+      0.0116
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.014360000000000003,
+    "lower95": 0.011519600311214951,
+    "upper95": 0.017200399688785055,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0169,
+      0.01440000000000001,
+      0.010700000000000001,
+      0.01440000000000001,
+      0.015399999999999997
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.02114,
+    "lower95": 0.01733556096120872,
+    "upper95": 0.024944439038791278,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.025999999999999995,
+      0.022299999999999986,
+      0.019600000000000006,
+      0.019200000000000023,
+      0.018599999999999978
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 1,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.03408,
+    "lower95": 0.030205491000146325,
+    "upper95": 0.03795450899985367,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.037000000000000005,
+      0.03420000000000001,
+      0.028799999999999992,
+      0.03509999999999999,
+      0.0353
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.013179699345767315,
+    "lower95": 0.008079586360512113,
+    "upper95": 0.018279812331022518,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.010891315956671588,
+      0.008791937482685419,
+      0.013146614068508755,
+      0.013333649736073594,
+      0.01973497948489722
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.02399119644547887,
+    "lower95": 0.018720544359295273,
+    "upper95": 0.029261848531662464,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.02085911934293161,
+      0.025040078248513342,
+      0.019566306259310662,
+      0.024050946494057646,
+      0.030439531882581083
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.001975062425135414,
+    "lower95": 0.0014319394254829498,
+    "upper95": 0.002518185424787878,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0016613677796061196,
+      0.0024936571298887072,
+      0.002307003878350797,
+      0.0014385934227776967,
+      0.0019746899150537497
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.003574399371621928,
+    "lower95": 0.002910010595662197,
+    "upper95": 0.004238788147581659,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0027683680044717635,
+      0.003339715081371035,
+      0.004134666675535227,
+      0.003739918669798205,
+      0.0038893284269334097
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.00398,
+    "lower95": 0.0008077975561276668,
+    "upper95": 0.007152202443872333,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.00019999999999999185,
+      0.005099999999999993,
+      0.005500000000000005,
+      0.002600000000000005,
+      0.006500000000000006
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.0069799999999999975,
+    "lower95": 0.00582719003492194,
+    "upper95": 0.008132809965078055,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.006599999999999995,
+      0.00839999999999999,
+      0.006400000000000003,
+      0.007400000000000004,
+      0.006099999999999994
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.009999999999999998,
+    "lower95": 0.007097319922478679,
+    "upper95": 0.012902680077521319,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.008699999999999986,
+      0.007600000000000023,
+      0.010599999999999998,
+      0.009399999999999992,
+      0.01369999999999999
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.015640000000000005,
+    "lower95": 0.012223054377718472,
+    "upper95": 0.019056945622281538,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.015300000000000008,
+      0.013800000000000007,
+      0.016399999999999998,
+      0.012800000000000006,
+      0.0199
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.013660440402351214,
+    "lower95": 0.010824430148510212,
+    "upper95": 0.016496450656192214,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.013332766211006097,
+      0.01156967531956371,
+      0.012336483161649314,
+      0.013578044856878635,
+      0.017485232462658318
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.02991264949976702,
+    "lower95": 0.027964388167941015,
+    "upper95": 0.03186091083159302,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.028622990317615338,
+      0.028856461036604275,
+      0.029365082632227757,
+      0.030222815742032172,
+      0.03249589777035555
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.003117845208966527,
+    "lower95": 0.0023671284541067214,
+    "upper95": 0.0038685619638263325,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.004108948422527403,
+      0.002821972924555001,
+      0.0025702630692373413,
+      0.002842007851102425,
+      0.0032460337774104647
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.004352640990732444,
+    "lower95": 0.003477059209688376,
+    "upper95": 0.005228222771776512,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0042016741556185205,
+      0.004874198928227776,
+      0.005247017911409184,
+      0.00350307159894412,
+      0.00393724235946262
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.00466,
+    "lower95": 0.0036566309984176855,
+    "upper95": 0.005663369001582315,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0032999999999999974,
+      0.004800000000000013,
+      0.005099999999999993,
+      0.005400000000000002,
+      0.004699999999999996
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.008360000000000003,
+    "lower95": 0.006827663873428862,
+    "upper95": 0.009892336126571144,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.009900000000000006,
+      0.0092,
+      0.0068000000000000005,
+      0.008300000000000002,
+      0.0076000000000000095
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.011400000000000004,
+    "lower95": 0.008208899367820639,
+    "upper95": 0.014591100632179369,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.01050000000000001,
+      0.011399999999999993,
+      0.009399999999999992,
+      0.00990000000000002,
+      0.01580000000000001
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 4,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.019919999999999993,
+    "lower95": 0.01582213256138391,
+    "upper95": 0.024017867438616076,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.01999999999999999,
+      0.017600000000000005,
+      0.023799999999999988,
+      0.01579999999999998,
+      0.022400000000000003
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.007650635900418234,
+    "lower95": 0.004345973889025393,
+    "upper95": 0.010955297911811076,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.007780858426811477,
+      0.005048973377614729,
+      0.005983017148172065,
+      0.007461691336747955,
+      0.011978639212744946
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.011201894973895598,
+    "lower95": 0.0073077318049414135,
+    "upper95": 0.015096058142849783,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.006488668895584526,
+      0.01004154535615609,
+      0.011475317441604738,
+      0.014119476818443666,
+      0.013884466357688974
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.0009000000000000008,
+    "lower95": 0.000192142611508865,
+    "upper95": 0.0016078573884911367,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.001700000000000007,
+      0.0007000000000000062,
+      0.0006999999999999923,
+      0.0011999999999999927,
+      0.00020000000000000573
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.006420000000000004,
+    "lower95": 0.003697667611829754,
+    "upper95": 0.009142332388170254,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.006599999999999995,
+      0.003400000000000014,
+      0.005299999999999999,
+      0.007700000000000012,
+      0.009099999999999997
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.004660000000000003,
+    "lower95": 0.0033949643464139395,
+    "upper95": 0.005925035653586066,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.004399999999999987,
+      0.004399999999999987,
+      0.006400000000000017,
+      0.004400000000000015,
+      0.003700000000000009
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.01215326084576096,
+    "lower95": 0.010026667938906334,
+    "upper95": 0.014279853752615587,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.011475164657016368,
+      0.009832112894185563,
+      0.012344219372102005,
+      0.012581168979260704,
+      0.014533638326240161
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.01871936265027424,
+    "lower95": 0.016137629449766155,
+    "upper95": 0.021301095850782326,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.018311500682705373,
+      0.017397849914998154,
+      0.019265108192036473,
+      0.021992789843090943,
+      0.01662956461854026
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.0020583404154357237,
+    "lower95": 0.0013663968566424295,
+    "upper95": 0.002750283974229018,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0026855004087535106,
+      0.0020697750521109365,
+      0.0016200613302083874,
+      0.0013940051269717424,
+      0.0025223601591340405
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.0021162026222177207,
+    "lower95": 0.0014351149364056355,
+    "upper95": 0.0027972903080298057,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0017632078268738638,
+      0.0017207521327526343,
+      0.00301634216807712,
+      0.002264843174697627,
+      0.001815867808687359
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.00426,
+    "lower95": 0.003076830370628409,
+    "upper95": 0.005443169629371591,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.003699999999999995,
+      0.0039000000000000007,
+      0.0032999999999999974,
+      0.00470000000000001,
+      0.005699999999999997
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.005600000000000005,
+    "lower95": 0.0025232778750051074,
+    "upper95": 0.008676722124994903,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.005299999999999999,
+      0.005300000000000013,
+      0.00860000000000001,
+      0.006900000000000003,
+      0.001899999999999999
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.009140000000000004,
+    "lower95": 0.006926492308227615,
+    "upper95": 0.011353507691772393,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.009399999999999992,
+      0.009199999999999986,
+      0.006900000000000017,
+      0.008400000000000019,
+      0.011800000000000005
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.011940000000000001,
+    "lower95": 0.009220217275898524,
+    "upper95": 0.014659782724101478,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.013600000000000001,
+      0.010399999999999993,
+      0.014600000000000002,
+      0.009300000000000003,
+      0.011800000000000005
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-candidate_graph_raw_accountant",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.006032935205084333,
+    "lower95": 0.00514761524426037,
+    "upper95": 0.006918255165908296,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.006461692855135537,
+      0.005123733769865968,
+      0.006893420592829935,
+      0.006167265194528704,
+      0.005518563613061522
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph-candidate_graph_raw_accountant",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.008475291137441231,
+    "lower95": 0.007300879682275633,
+    "upper95": 0.00964970259260683,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0074749801816187955,
+      0.008648527126286443,
+      0.00754283551866336,
+      0.00961034898874713,
+      0.009099763871890432
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph_raw_accountant-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.0061203256406766274,
+    "lower95": 0.0039578380352190395,
+    "upper95": 0.008282813246134215,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.005013471801880831,
+      0.004708379124319595,
+      0.00545079877927207,
+      0.006413903784732,
+      0.009015074713178639
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "CS",
+    "epsilon": 10,
+    "comparison": "candidate_graph_raw_accountant-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.010244071512833009,
+    "lower95": 0.007706224700199316,
+    "upper95": 0.012781918325466702,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.010836520501086577,
+      0.008749322788711711,
+      0.011722272673373113,
+      0.012382440854343812,
+      0.0075298007466498285
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.021264041743121208,
+    "lower95": 0.019261742660752895,
+    "upper95": 0.02326634082548952,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.021232980141300317,
+      0.02160664038173893,
+      0.022159977957714627,
+      0.018568440778797046,
+      0.022752169456055127
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.03263641277661629,
+    "lower95": 0.030391193782171134,
+    "upper95": 0.03488163177106144,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.03399849902940488,
+      0.033151896063260355,
+      0.033304007772073596,
+      0.029456840244191096,
+      0.0332708207741515
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.0054221224420775704,
+    "lower95": 0.004078336022859412,
+    "upper95": 0.0067659088612957285,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0039342815103002166,
+      0.00687261382030617,
+      0.005674784701572358,
+      0.004940022905195712,
+      0.0056889092730133956
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.003239066086388502,
+    "lower95": 0.0017597204300076772,
+    "upper95": 0.0047184117427693266,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0015545904582712246,
+      0.0034432434547057023,
+      0.00484278486452391,
+      0.0035084657966233286,
+      0.002846245857818345
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.008040000000000002,
+    "lower95": 0.005344416378565895,
+    "upper95": 0.010735583621434109,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.004900000000000002,
+      0.007800000000000001,
+      0.01079999999999999,
+      0.00910000000000001,
+      0.0076000000000000095
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.006719999999999999,
+    "lower95": 0.005567190034921938,
+    "upper95": 0.00787280996507806,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.005499999999999998,
+      0.0063,
+      0.006699999999999998,
+      0.008,
+      0.007100000000000002
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "uniform",
+    "mean": 0.019080000000000007,
+    "lower95": 0.017897482075238245,
+    "upper95": 0.020262517924761768,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.019299999999999984,
+      0.018199999999999994,
+      0.018400000000000027,
+      0.018900000000000028,
+      0.020600000000000007
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "uniform",
+    "mean": 0.01716,
+    "lower95": 0.013974218275518866,
+    "upper95": 0.020345781724481135,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.016699999999999993,
+      0.014600000000000002,
+      0.020800000000000013,
+      0.015100000000000002,
+      0.018600000000000005
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.02324667844320667,
+    "lower95": 0.01907736104775573,
+    "upper95": 0.027415995838657607,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.021777433232801346,
+      0.02487851650046452,
+      0.019876360257731207,
+      0.021402703666721645,
+      0.02829837855831463
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "batch_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.030718512940361088,
+    "lower95": 0.02713054702672474,
+    "upper95": 0.03430647885399744,
+    "n": 5,
+    "df": 4,
+    "threshold": 0.01,
+    "conclusion": "supported",
+    "comparison_conclusion": "supported",
+    "differences": [
+      0.02764827739865816,
+      0.03440279529068907,
+      0.03047141630305633,
+      0.028268820155022356,
+      0.032801255554379516
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.005279916792703937,
+    "lower95": 0.004228711069567181,
+    "upper95": 0.006331122515840694,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.004031858375088362,
+      0.005420812412489248,
+      0.006163407174262198,
+      0.004899855788507421,
+      0.005883650213172456
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "corpus_mrr",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.002761634909670514,
+    "lower95": 0.001731102895334785,
+    "upper95": 0.003792166924006243,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.0018574454503351434,
+      0.003507147216996999,
+      0.0028149178200722186,
+      0.001985598902942101,
+      0.003643065158006109
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.008560000000000007,
+    "lower95": 0.005426673755115128,
+    "upper95": 0.011693326244884885,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.005400000000000016,
+      0.007699999999999985,
+      0.01050000000000001,
+      0.007500000000000007,
+      0.011700000000000016
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_10",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.006120000000000003,
+    "lower95": 0.004631556091371395,
+    "upper95": 0.007608443908628611,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.006800000000000007,
+      0.0068000000000000005,
+      0.007100000000000002,
+      0.004200000000000002,
+      0.005700000000000004
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "CN-US",
+    "negatives": "hard",
+    "mean": 0.020340000000000004,
+    "lower95": 0.016345777083719905,
+    "upper95": 0.024334222916280103,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.018799999999999983,
+      0.021600000000000008,
+      0.016400000000000026,
+      0.025000000000000022,
+      0.019899999999999973
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  },
+  {
+    "field": "MAT",
+    "epsilon": 10,
+    "comparison": "candidate_graph-public_groups",
+    "metric": "recall_at_100",
+    "direction": "US-CN",
+    "negatives": "hard",
+    "mean": 0.01801999999999999,
+    "lower95": 0.015035612084265342,
+    "upper95": 0.02100438791573464,
+    "n": 5,
+    "df": 4,
+    "threshold": "",
+    "conclusion": "",
+    "comparison_conclusion": "",
+    "differences": [
+      0.016399999999999998,
+      0.016699999999999993,
+      0.02209999999999998,
+      0.016600000000000004,
+      0.018299999999999983
+    ],
+    "seeds": [
+      401,
+      409,
+      419,
+      421,
+      431
+    ]
+  }
+]

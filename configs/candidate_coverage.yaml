@@ -1,0 +1,17 @@
+seed: 271828
+cpu_threads: 2
+domains: [CN, US]
+datasets:
+  BIO:
+    root: data/openalex_bio
+  CS:
+    root: data/openalex_cs
+  MAT:
+    root: data/openalex_mat
+legacy_config: configs/public_groups.yaml
+legacy_schemes: [text_groups, singleton_knn]
+candidate_limits: [16, 64, 256]
+text_modes: [title, title_abstract]
+degree_bins: [{label: '1', lower: 1, upper: 1}, {label: 2-4, lower: 2, upper: 4}, {label: 5-16, lower: 5, upper: 16}, {label: '>16', lower: 17, upper: null}]
+date_format: '%Y%m%d'
+output_dir: runs/coverage

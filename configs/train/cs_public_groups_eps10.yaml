@@ -1,0 +1,46 @@
+seed: 17
+training_seeds: [401, 409, 419, 421, 431]
+clip_seed: 271828
+eval_seed: 314159
+data_dir: data/cs_public_groups
+output_dir: runs/train/cs_public_groups_eps10
+directions: [[CN, US], [US, CN]]
+arms: [R1, H1]
+steps: 2000
+epsilon_budget: 10
+expected_batch_size: 256
+kdeg: 4
+C: 1.0
+k_neg: 4
+learning_rate: 0.001
+tau_sampler: 0.2
+tau_loss: 0.1
+refresh_every: 100
+normalization: M = gamma * public proxy-expected retained count (fixed public scale)
+delta_rule: public entities ** -1.1
+cpu_threads: 2
+bf16: true
+tf32: true
+gradient_chunk_size: 32
+encode_batch_size: 1024
+model:
+  name: bert-base-uncased
+  cache_dir: data/model_cache
+  lora_r: 8
+  lora_alpha: 16
+  target_modules: [query, value]
+max_restarts: 2
+run_timeout_seconds: 43200
+wall_time_limit_seconds: 129600
+process_gpu_hours_limit: 60
+noise_calibration: mog
+retry_policy: same task and seeds; at most 2 crash/timeout retries; no quality retries
+analysis:
+  primary_pair: [H1, R1]
+  descriptive_pairs: []
+  delta_min: 0.02
+  confidence: 0.95
+full_corpus_eval: true
+stable_truncation: true
+stable_scale: public_expected
+stable_delta: entity_power
